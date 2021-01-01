@@ -1,0 +1,71 @@
+@charset "utf-8";
+#contact_form{
+    padding-top: 5px;
+    position: relative;
+}
+form fieldset {
+    border: 0 none;
+    display: block;
+    position: relative;    
+	color: #000000;
+}
+input.text-input {
+    background: url("../images/inp.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #000000;
+    display: block;
+    font-size: 16px;
+    height: 20px;
+    margin: 5px auto 10px;
+    padding: 14px 20px 10px;
+    width: 251px;
+}
+label#name_error, label#name_error_1{ 	
+   background: url("../images/err.png") no-repeat scroll 0 0 transparent;
+    color: red;
+    font-size: 14px;
+    font-weight: normal;
+    height: 50px;
+    left: -120px;
+    padding-left: 20px;
+    position: absolute;
+    text-align: left;
+    top: 30px;
+    width: 180px;
+    z-index: 9999;
+    padding-top: 17px;
+	font-family: 'Roboto Condensed',sans-serif;
+ }
+input#name, input#name_3{  
+    
+}
+
+label#phone_error, label#phone_error_1 {
+    background: url("../images/err.png") no-repeat scroll 0 0 transparent;
+    color: red;
+    font-size: 14px;
+    font-weight: normal;
+    height: 50px;
+    left: -120px;
+    padding-left: 20px;
+    padding-top: 17px;
+    position: absolute;
+    text-align: left;
+    top: 85px;
+    width: 180px;
+    z-index: 9;
+	font-family: 'Roboto Condensed',sans-serif;
+}
+input#submit_btn  { 
+	background: url("../images/btn.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 64px;
+    margin: 11px auto 18px;
+    position: relative;
+    width: 284px;
+}
+input#submit_btn:hover  { 
+	background: url("../images/btn.png") no-repeat scroll 0 -64px transparent;
+}
